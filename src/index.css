@@ -6,3 +6,31 @@
 body{
     overflow-x: hidden;
 }
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul li{
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+ul li a::before{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  align-items: center;
+  bottom: -9px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.3s ease-in-out;
+}
+
+ul li a:hover::before {
+  width:24px;
+}

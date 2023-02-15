@@ -19,67 +19,72 @@ import DFisheye from '../images/desktop/image-fisheye.jpg'
 
 const Gallery = () => {
     return (
-        <div className=' flex flex-col items-center justify-center pb-14'>
-            <h1 className=' text-2xl font-JosefinSans'>OUR CREATIONS</h1>
-            <div className=' flex flex-col items-center justify-center gap-6 md:grid md:grid-cols-2 md:gap-6 md:items-center md:justify-center'>
-                <div className=' w-auto max-w-[25.438rem] h-[7.5rem] px-6'>
+        <div className='flex flex-col items-center justify-center pb-14 lg:grid lg:grid-cols-2 xl:container xl:mx-auto'>
+            <div className='pb-14 flex flex-col items-center lg:flex-row lg:w-screen lg:items-center lg:justify-between'>
+            <h1 className='text-2xl  font-JosefinSans lg:text-4xl'>OUR CREATIONS</h1>
+            <div className=' w-40 hidden items-center justify-center font-JosefinSans font-light text-black border-2 border-VeryDarkGrey px-9 py-3 cursor-pointer hover:bg-black hover:text-white duration-300 lg:flex'>
+                SEE ALL
+            </div>
+            </div>
+            <div className=' flex flex-col items-center justify-center gap-6 md:grid md:grid-cols-2 md:gap-6 md:items-center md:justify-center lg:grid-cols-4 lg:col-start-1 lg:col-end-3'>
+                <div className=' w-auto max-w-[25.438rem] h-[7.5rem] px-6 lg:h-[28.175rem] lg:w-auto'>
                     <picture>
                         <source media="(min-width: 64rem)" srcSet={DDeep} />
                         <img src={MDeep} alt="" className=' w-full h-full object-cover' />
                     </picture>
-                    <h1 className=' text-lg pl-5 font-JosefinSans w-10 translate-y-[-4rem] text-white'>DEEP EARTH</h1>
+                    <h1 className=' text-lg pl-5 font-JosefinSans translate-y-[-4rem] text-white'>DEEP<br />EARTH</h1>
                 </div>
-                <div className=' w-auto max-w-[25.438rem] h-[7.5rem] px-6'>
+                <div className=' w-auto max-w-[25.438rem] h-[7.5rem] px-6 lg:h-[28.175rem] lg:w-auto'>
                     <picture >
                         <source media="(min-width: 64rem)" srcSet={DNight} />
                         <img src={MNight} alt="" className=' w-full h-full object-cover' />
                     </picture>
-                    <h1 className=' text-lg pl-5 font-JosefinSans w-10 translate-y-[-4rem] text-white'>NIGHT ARCADE</h1>
+                    <h1 className=' text-lg pl-5 font-JosefinSans translate-y-[-4rem] text-white'>NIGHT<br />ARCADE</h1>
                 </div>
-                <div className=' w-auto max-w-[25.438rem] h-[7.5rem] px-6'>
+                <div className=' w-auto max-w-[25.438rem] h-[7.5rem] px-6 lg:h-[28.175rem] lg:w-auto'>
                     <picture >
                         <source media="(min-width: 64rem)" srcSet={DSoccer} />
                         <img src={MSoccer} alt="" className=' w-full h-full object-cover' />
                     </picture>
-                    <h1 className=' text-lg pl-5 font-JosefinSans w-auto translate-y-[-4rem] text-white'>SOCCER TEAM VR</h1>
+                    <h1 className=' text-lg pl-5 font-JosefinSans translate-y-[-4rem] text-white'>SOCCER<br />TEAM VR</h1>
                 </div>
-                <div className=' w-auto max-w-[25.438rem] h-[7.5rem] px-6'>
+                <div className=' w-auto max-w-[25.438rem] h-[7.5rem] px-6 lg:h-[28.175rem] lg:w-auto'>
                     <picture >
                         <source media="(min-width: 64rem)" srcSet={DGrid} />
                         <img src={MGrid} alt="" className=' w-full h-full object-cover' />
                     </picture>
-                    <h1 className=' text-lg pl-5 font-JosefinSans w-auto translate-y-[-4rem] text-white'>THE GRID</h1>
+                    <h1 className=' text-lg pl-5 font-JosefinSans translate-y-[-4rem] text-white'>THE<br />GRID</h1>
                 </div>
-                <div className=' w-auto max-w-[25.438rem] h-[7.5rem] px-6'>
+                <div className=' w-auto max-w-[25.438rem] h-[7.5rem] px-6 lg:h-[28.175rem] lg:w-auto'>
                     <picture >
                         <source media="(min-width: 64rem)" srcSet={DAbove} />
                         <img src={MAbove} alt="" className=' w-full h-full object-cover' />
                     </picture>
-                    <h1 className=' text-lg pl-5 font-JosefinSans w-auto translate-y-[-4rem] text-white'>FRON UP ABOVE VR</h1>
+                    <h1 className=' text-lg pl-5 font-JosefinSans translate-y-[-4rem] text-white'>FRON UP<br />ABOVE VR</h1>
                 </div>
-                <div className=' w-auto max-w-[25.438rem] h-[7.5rem] px-6'>
+                <div className=' w-auto max-w-[25.438rem] h-[7.5rem] px-6 lg:h-[28.175rem] lg:w-auto'>
                     <picture >
                         <source media="(min-width: 64rem)" srcSet={DPocket} />
                         <img src={MPocket} alt="" className=' w-full h-full object-cover' />
                     </picture>
-                    <h1 className=' text-lg pl-5 font-JosefinSans w-auto translate-y-[-4rem] text-white'>POCKET BOREALIS</h1>
+                    <h1 className=' text-lg pl-5 font-JosefinSans translate-y-[-4rem] text-white'>POCKET<br />BOREALIS</h1>
                 </div>
-                <div className=' w-auto max-w-[25.438rem] h-[7.5rem] px-6'>
+                <div className=' w-auto max-w-[25.438rem] h-[7.5rem] px-6 lg:h-[28.175rem] lg:w-auto'>
                     <picture >
                         <source media="(min-width: 64rem)" srcSet={DCuriosity} />
                         <img src={MCuriosity} alt="" className=' w-full h-full object-cover' />
                     </picture>
-                    <h1 className=' text-lg pl-5 font-JosefinSans w-auto translate-y-[-4rem] text-white'>THE CURIOSITY</h1>
+                    <h1 className=' text-lg pl-5 font-JosefinSans translate-y-[-4rem] text-white'>THE<br />CURIOSITY</h1>
                 </div>
-                <div className=' w-auto max-w-[25.438rem] h-[7.5rem] px-6'>
+                <div className=' w-auto max-w-[25.438rem] h-[7.5rem] px-6 lg:h-[28.175rem] lg:w-auto'>
                     <picture >
                         <source media="(min-width: 64rem)" srcSet={DFisheye} />
                         <img src={MFisheye} alt="" className=' w-full h-full object-cover' />
                     </picture>
-                    <h1 className=' text-lg pl-5 font-JosefinSans w-auto translate-y-[-4rem] text-white'>MAKE IT FISHEYE</h1>
+                    <h1 className=' text-lg pl-5 font-JosefinSans translate-y-[-4rem] text-white'>MAKE IT<br />FISHEYE</h1>
                 </div>
             </div>
-            <div className='font-JosefinSans font-light text-black border-2 border-VeryDarkGrey px-9 py-3 mt-8 cursor-pointer'>
+            <div className=' w-40 flex items-center justify-center font-JosefinSans font-light text-black border-2 border-VeryDarkGrey px-9 py-3 mt-8 cursor-pointer hover:bg-black hover:text-white duration-300 lg:hidden lg:float-right'>
                 SEE ALL
             </div>
         </div>
