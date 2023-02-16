@@ -26,57 +26,57 @@ const Gallery = () => {
                 SEE ALL
             </div>
             </div>
-            <div className=' z-0 flex flex-col items-center justify-center space-y-6  md:grid md:grid-cols-2 md:gap-6 md:items-center md:justify-center lg:grid-cols-4 lg:space-y-0 lg:justify-items-center'>
-                <div className='text-white w-auto max-w-[25.438rem] h-[7.5rem] lg:h-[28.175rem] lg:w-[16rem] bg-black cursor-pointer duration-300 hover:text-black hover:bg-white'>
+            <div className='z-0 flex flex-col items-center justify-center space-y-6  md:grid md:grid-cols-2 md:gap-6 md:items-center md:justify-center lg:grid-cols-4 lg:space-y-0 lg:justify-items-center'>
+                <div className='text-white w-auto max-w-[20.438rem] h-[7.5rem] md:max-w-[25.438rem] lg:h-[28.175rem] lg:w-[16rem] bg-black cursor-pointer duration-300 hover:text-black hover:bg-white'>
                     <picture>
                         <source media="(min-width: 64rem)" srcSet={DDeep} />
                         <img src={MDeep} alt="earth" className=' w-[25.438rem] h-full object-cover opacity-60 hover:opacity-30'/>
                     </picture>
                     <h1 className='text-lg pl-5 font-JosefinSans translate-y-[-4rem] w-fit lg:text-2xl lg:translate-y-[-6rem] lg:translate-x-6'>DEEP<br />EARTH</h1>
                 </div>
-                <div className='text-white w-auto max-w-[25.438rem] h-[7.5rem] lg:h-[28.175rem] lg:w-[16rem] bg-black cursor-pointer duration-300 hover:text-black hover:bg-white'>
+                <div className='text-white w-auto max-w-[20.438rem]  md:max-w-[25.438rem] h-[7.5rem] lg:h-[28.175rem] lg:w-[16rem] bg-black cursor-pointer duration-300 hover:text-black hover:bg-white'>
                     <picture >
                         <source media="(min-width: 64rem)" srcSet={DNight} />
                         <img src={MNight} alt="arcade game" className='  w-[25.438rem] h-full object-cover opacity-60 hover:opacity-30' />
                     </picture>
                     <h1 className=' text-lg pl-5 font-JosefinSans translate-y-[-4rem] w-fit lg:text-2xl lg:translate-y-[-6rem] lg:translate-x-6'>NIGHT<br />ARCADE</h1>
                 </div>
-                <div className=' text-white w-auto max-w-[25.438rem] h-[7.5rem] lg:h-[28.175rem] lg:w-[16rem] bg-black cursor-pointer duration-300 hover:text-black hover:bg-white'>
+                <div className=' text-white w-auto max-w-[20.438rem]  md:max-w-[25.438rem] h-[7.5rem] lg:h-[28.175rem] lg:w-[16rem] bg-black cursor-pointer duration-300 hover:text-black hover:bg-white'>
                     <picture >
                         <source media="(min-width: 64rem)" srcSet={DSoccer} />
                         <img src={MSoccer} alt="soccer player with a red jersey" className=' w-[25.438rem] h-full object-cover opacity-60 hover:opacity-30'/>
                     </picture>
                     <h1 className='text-lg pl-5 font-JosefinSans translate-y-[-4rem] w-fit lg:text-2xl lg:translate-y-[-6rem] lg:translate-x-6 '>SOCCER<br />TEAM VR</h1>
                 </div>
-                <div className=' text-white w-auto max-w-[25.438rem] h-[7.5rem] lg:h-[28.175rem] lg:w-[16rem] bg-black cursor-pointer duration-300 hover:text-black hover:bg-white'>
+                <div className=' text-white w-auto max-w-[20.438rem]  md:max-w-[25.438rem] h-[7.5rem] lg:h-[28.175rem] lg:w-[16rem] bg-black cursor-pointer duration-300 hover:text-black hover:bg-white'>
                     <picture >
                         <source media="(min-width: 64rem)" srcSet={DGrid} />
                         <img src={MGrid} alt="car tire" className=' w-[25.438rem] h-full object-cover opacity-60 hover:opacity-30' />
                     </picture>
                     <h1 className='text-lg pl-5 font-JosefinSans translate-y-[-4rem] w-fit lg:text-2xl lg:translate-y-[-6rem] lg:translate-x-6'>THE<br />GRID</h1>
                 </div>
-                <div className='text-white w-auto max-w-[25.438rem] h-[7.5rem] lg:h-[28.175rem] lg:w-[16rem] bg-black cursor-pointer duration-300 hover:text-black hover:bg-white'>
+                <div className='text-white w-auto max-w-[20.438rem]  md:max-w-[25.438rem] h-[7.5rem] lg:h-[28.175rem] lg:w-[16rem] bg-black cursor-pointer duration-300 hover:text-black hover:bg-white'>
                     <picture >
                         <source media="(min-width: 64rem)" srcSet={DAbove} />
                         <img src={MAbove} alt="race circuit from above" className=' w-[25.438rem] h-full object-cover opacity-60 hover:opacity-30' />
                     </picture>
                     <h1 className='text-lg pl-5 font-JosefinSans translate-y-[-4rem] w-fit lg:text-2xl lg:translate-y-[-6rem] lg:translate-x-6'>FRON UP<br />ABOVE VR</h1>
                 </div>
-                <div className=' text-white w-auto max-w-[25.438rem] h-[7.5rem] lg:h-[28.175rem] lg:w-[16rem] bg-black cursor-pointer duration-300 hover:text-black hover:bg-white'>
+                <div className=' text-white w-auto max-w-[20.438rem]  md:max-w-[25.438rem] h-[7.5rem] lg:h-[28.175rem] lg:w-[16rem] bg-black cursor-pointer duration-300 hover:text-black hover:bg-white'>
                     <picture >
                         <source media="(min-width: 64rem)" srcSet={DPocket} />
                         <img src={MPocket} alt="nothern lights" className=' w-[25.438rem] h-full object-cover opacity-60 hover:opacity-30' />
                     </picture>
                     <h1 className='text-lg pl-5 font-JosefinSans translate-y-[-4rem] w-fit lg:text-2xl lg:translate-y-[-6rem] lg:translate-x-6'>POCKET<br />BOREALIS</h1>
                 </div>
-                <div className='text-white w-auto max-w-[25.438rem] h-[7.5rem] lg:h-[28.175rem] lg:w-[16rem] bg-black cursor-pointer duration-300 hover:text-black hover:bg-white'>
+                <div className='text-white w-auto max-w-[20.438rem]  md:max-w-[25.438rem] h-[7.5rem] lg:h-[28.175rem] lg:w-[16rem] bg-black cursor-pointer duration-300 hover:text-black hover:bg-white'>
                     <picture >
                         <source media="(min-width: 64rem)" srcSet={DCuriosity} />
                         <img src={MCuriosity} alt="land drone on mass" className=' w-[25.438rem] h-full object-cover opacity-60 hover:opacity-30' />
                     </picture>
                     <h1 className=' text-lg pl-5 font-JosefinSans translate-y-[-4rem] w-fit lg:text-2xl lg:translate-y-[-6rem] lg:translate-x-6'>THE<br />CURIOSITY</h1>
                 </div>
-                <div className='text-white w-auto max-w-[25.438rem] h-[7.5rem] lg:h-[28.175rem] lg:w-[16rem] bg-black cursor-pointer duration-300 hover:text-black hover:bg-white'>
+                <div className='text-white w-auto max-w-[20.438rem]  md:max-w-[25.438rem] h-[7.5rem] lg:h-[28.175rem] lg:w-[16rem] bg-black cursor-pointer duration-300 hover:text-black hover:bg-white'>
                     <picture >
                         <source media="(min-width: 64rem)" srcSet={DFisheye} />
                         <img src={MFisheye} alt="fisheye" className=' w-[25.438rem] h-full object-cover opacity-60 hover:opacity-30' />
