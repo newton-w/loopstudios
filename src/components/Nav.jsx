@@ -5,7 +5,7 @@ import menuClose from '../images/icon-close.svg'
 
 const Nav = () => {
 
-    const [active, setActive] = useState('translate-x-full')
+    const [active, setActive] = useState('translate-x-[-100%]')
     const [sticky, setSticky] = useState('absolute')
 
     useEffect(() => {
@@ -24,9 +24,9 @@ const Nav = () => {
 
         return () => window.removeEventListener('scroll', HandleScroll)
     }, [])
-    
+
     const HandleClick = () => {
-        setActive((prev) => prev == 'translate-x-0' ? 'translate-x-full' : 'translate-x-0')
+        setActive((prev) => prev == 'translate-x-0' ? 'translate-x-[-100%]' : 'translate-x-0')
     }
     const BGblack = {
         backgroundColor: sticky === 'fixed' ? 'black' : (active == 'translate-x-0' ? 'black' : 'transparent'),
