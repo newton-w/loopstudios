@@ -38,7 +38,7 @@ live site url: [loopstudios](https://newt-loopstudios.netlify.app/)
 ## Author
 
 - Frontend Mentor - [@newton-w](https://www.frontendmentor.io/profile/newton-w)
-- LinkedIn - [@newton](https://www.linkedin.com/in/newton-warui-326917223/)
+- LinkedIn - [@newton](https://www.linkedin.com/in/newton-warui)
 
 ## run
 # Run the Project
